@@ -31,42 +31,39 @@ Features
 - Database integration using MySQL
 
 Project Structure
+## Project Structure
 
-EmployeeManagementSystem
+```text
+EmployeeManagementSystem/
 │
-├── src/main/java/com/example/EmployeeManagementSystem
-│   │
-│   ├── controller
-│   │   └── ControllerEmployee.java
-│   │
-│   ├── dto
-│   │   └── DtoEmployee.java
-│   │
-│   ├── exception
-│   │   └── ExceptionEmployee.java
-│   │
-│   ├── mapper
-│   │   └── MapperEmployee.java
-│   │
-│   ├── model
-│   │   └── Employee.java
-│   │
-│   ├── repository
-│   │   └── RepositoryEmployee.java
-│   │
-│   ├── service
-│   │   ├── ServiceEmployee.java
-│   │   └── ServiceEmployeeIn.java
-│   │
-│   └── EmployeeManagementSystemApplication.java
-│
-├── src/main/resources
-│   └── application.properties
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/EmployeeManagementSystem/
+│   │   │       ├── controller/
+│   │   │       │   └── ControllerEmployee.java
+│   │   │       ├── dto/
+│   │   │       │   └── DtoEmployee.java
+│   │   │       ├── exception/
+│   │   │       │   └── ExceptionEmployee.java
+│   │   │       ├── mapper/
+│   │   │       │   └── MapperEmployee.java
+│   │   │       ├── model/
+│   │   │       │   └── Employee.java
+│   │   │       ├── repository/
+│   │   │       │   └── RepositoryEmployee.java
+│   │   │       ├── service/
+│   │   │       │   ├── ServiceEmployee.java
+│   │   │       │   └── ServiceEmployeeIn.java
+│   │   │       └── EmployeeManagementSystemApplication.java
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
 │
 ├── .gitignore
 ├── pom.xml
 └── README.md
-
+```
 Prerequisites
 
 Make sure you have the following installed:
